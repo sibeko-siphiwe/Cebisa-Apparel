@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebisa Apparel | Where Fashion Meets Fresh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="display: flex;min-height: 100vh;flex-direction: column;justify-content: space-between;">
+    
+	<form action="Admin.php" method="get">
+
+        <h2>Upload Products</h2>
+
+        <p>
+            <label for="Product_Photo">
+                <input type="file" name="Product_Photo" id="Product_Photo">
+            </label>
+        </p>
+
+        <p>
+            <label for="Name">
+                Product Name
+                <br>
+                <input type="text" name="Name" id="Name">
+            </label>
+        </p>
+
+        <p>
+            <label for="Price">
+                Product Price
+                <br>
+                <input type="text" name="Price" id="Price">
+            </label>
+        </p>
+
+        <p>
+            <label for="Quantity">
+                Product Quantity
+                <br>
+                <input type="number" name="Quantity" id="Quantity">
+            </label>
+        </p>
+
+        <p>
+            <label for="Colors">
+                Product Colors
+                <br>
+                <br>
+                <input type="checkbox" name="" id="" style="padding: 0;
+                margin: 0; width: 20px;">Black
+                <br>
+                <input type="checkbox" name="" id="" style="padding: 0;
+                margin: 0; width: 20px;">Red
+                <br>
+                <input type="checkbox" name="" id="" style="padding: 0;
+                margin: 0; width: 20px;">White
+                
+            </label>
+        </p>
+
+        <p>
+            <label for="Sizes">
+                Product Sizes
+                <br>
+                <input type="checkbox" name="" id=""style="padding: 0;
+                margin: 0; width: 20px;">
+                X-Small<br>
+                <input type="checkbox" name="" id=""style="padding: 0;
+                margin: 0; width: 20px;">
+                Small<br>
+                <input type="checkbox" name="" id=""style="padding: 0;
+                margin: 0; width: 20px;">
+                Medium<br>
+                <input type="checkbox" name="" id=""style="padding: 0;
+                margin: 0; width: 20px;">
+                Large<br>
+                <input type="checkbox" name="" id=""style="padding: 0;
+                margin: 0; width: 20px;">
+                X-Large<br>
+            </label>
+        </p>
+
+        <p>
+            <label for="Description">
+                Product Description
+                <br>
+                <textarea name="" id="" style="width: 100%;resize: none;padding: 10px;" rows="5"></textarea>
+            </label>
+        </p>
+
+        <input type="submit" value="Upload" name="Upload">
+
+    </form>
+	
+</body>
+</html>

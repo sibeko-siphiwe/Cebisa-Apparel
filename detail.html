@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebisa Apparel | Where Fashion Meets Fresh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="display: flex;min-height: 100vh;flex-direction: column;justify-content: space-between;">
+    
+    <header>
+
+        <div class="Navbar">
+
+            <div class="Meenu" onclick="document.getElementById('Menu').style.display = 'block' ">
+
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+
+                <div class="MenuList" id="Menu" onmouseleave="document.getElementById('Menu').style.display = 'none' ">
+
+                    <a href="Home.html">Home</a>
+                    <a href="Wishlist.html">Wishlist</a>
+                    <a href="Policies.html">Policy</a>
+                    <a href="Register.html">Sign up</a>
+
+                </div>
+
+            </div>
+
+            <div class="logo">
+
+                <img src="images/Logo Black.png">
+
+            </div>
+
+        </div>
+
+    </header>
+    
+    <main style="margin: 0 auto;">
+
+        <h2 id="Product_Name" style="text-align: center;
+        margin: 20px;">IBN Archy T-Shirt</h2>
+
+        <div class="Details_Container">
+
+            <div class="Gallery">
+
+                <img src="images/Shirts (3).png">
+
+            </div>
+
+            <div class="Product_Details">
+
+                <div class="Description">
+                    <h3>Product Description:</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate similique at corrupti laboriosam deserunt modi tempora quia facilis eius enim, quis excepturi, inventore itaque qui suscipit illum veritatis saepe hic.
+                    </p>
+                </div>
+
+                <div class="Price">
+                    <h3>Price: R 350</h3>
+                </div>
+
+                <p>
+                    
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    
+                </p>
+                
+                <div style="display: flex; gap: 20px;">
+
+                    <p>
+                        <label for="Color">
+                            Color:
+                            <br>
+                            <select name="Color" id="Color">
+                                <option value="1">Red</option>
+                                <option value="2">Blue</option>                            
+                                <option value="3" selected>white</option>
+                            </select>
+                        </label>
+                    </p>
+    
+                    <p>
+                        <label for="Size">
+                            Size:
+                            <br>
+                            <select name="Size" id="Size">                            
+                                <option value="1">X-Small</option>
+                                <option value="2">Small</option>
+                                <option value="3" selected>Medium</option>                            
+                                <option value="4">Large</option>
+                                <option value="5">X-Large</option>
+                            </select>
+                        </label>
+                    </p>
+
+                </div>
+
+                <p>
+                    <label for="Quantity">
+                        Quantity:
+                        <br>
+                        <input type="number" value="1" min="1" name="Quantity" id="Quantity">
+                    </label>
+                </p>
+                
+                <p style="display: flex; align-items: center;gap: 5px;">
+                    <i onmouseover="this.style.color='red';" 
+                    onmouseout="this.style.color='blue';" class="fa-regular fa-heart" style="background-color: rgb(245, 245, 245); padding: 5px;"></i>
+                    <button onmouseover="this.style.backgroundColor = 'red'" onmouseleave="this.style.backgroundColor = 'rgb(245, 245, 245)'" style="width: 100%; padding: 5px; border: 0px black solid; cursor: pointer; background-color: rgb(245, 245, 245);">Add to cart</button>
+                </p>
+
+                <p>
+                    <button onmouseover="this.style.backgroundColor='red';" 
+                    " onmouseleave="this.style.backgroundColor = 'rgb(245, 245, 245)'" style="width: 100%; padding: 5px; border: 0px black solid; cursor: pointer; background-color: rgb(245, 245, 245);">Checkout</button>
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="links">
+
+            <h3>Follow us</h3>
+
+            <a target="_blank" href="https://web.facebook.com/ZakweOfficial">Facebook</a>
+            <a target="_blank" href="https://www.instagram.com/zakwesa/?hl=en">Instagram</a>
+            <a target="_blank" href="https://x.com/zakwesa">Twitter</a>
+            <a target="_blank" href="https://www.youtube.com/@ZakweSA">YouTube</a>
+
+        </div>
+
+        <p>
+            &copy;Cebisa Apparel 2024
+        </p>
+
+    </footer>
+
+</body>
+</html>
